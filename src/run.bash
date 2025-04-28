@@ -1,0 +1,3 @@
+source ~/Downloads/AISx/framework/pyframework/bin/activate
+export PYTHONPATH=~/Downloads/AISx/framework
+python ids_driver.py --activity train --eons_params ../config/eons.json --proc_params ../config/ucaspian.json --temporal --shuffle --percent_eval 0.1  --epochs 3 --random_netfilename --network_dir ~/Downloads/AISx/NeuroIDS/networks/networks --dataset_path ~/Downloads/AISx/NeuroIDS/data --processes 10
